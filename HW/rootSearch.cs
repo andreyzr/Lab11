@@ -19,7 +19,11 @@ namespace HW
 
         public string Root()
         {
-            if (k == 0)
+            if (k == 0&&b==0)
+            {
+                return "Решение любое x";
+            }
+            if (k == 0&&b!=0)
             {
                 return "Решения нет";
             }
